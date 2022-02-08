@@ -1,0 +1,8 @@
+<header class="container d-flex justify-content-between px-2 bg-light">
+    <div class="float-left">
+        <h2> Real Estate Investments</h2>
+    </div>
+     <div class="float-right">
+             <Button class="btn btn-dark border" *ngIf="!authService.isUserLoggedIn()" (click)="handleLogout()">Logout</Button>
+    </div>
+</header>
