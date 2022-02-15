@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Instruction to run on Docker
+
+1. Create a Dockerfile in root folder
+2. Run build command : docker build -t manikvashisht/nw_spa_bootstrap_test:latest .
+3. Run command : docker run -p 80:80 manikvashisht/nw_spa_bootstrap_test:latest
